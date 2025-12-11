@@ -39,10 +39,14 @@ This project is a multi-agent research assistant built with Chainlit, Firecrawl,
     ```
     OPENROUTER_API_KEY="your_openrouter_api_key"
     FIRECRAWL_API_KEY="your_firecrawl_api_key"
+    HTTP_STREAMABLE_SERVER=true
     ```
 
-4.  **Run the MCP server:**
-    The application requires an MCP server to be running. You can find more information about the MCP server in its documentation.
+4.  **Run the Firecrawl MCP server:**
+    Before running the main application, start the Firecrawl MCP server:
+    ```bash
+    npx dotenv -e .env -- npx -y firecrawl-mcp
+    ```
 
 5.  **Run the Chainlit application:**
     ```bash
