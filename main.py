@@ -10,7 +10,7 @@ import traceback
 # Load environment variables
 load_dotenv()
 
-api_key = os.getenv("OPENROUTER_API__KEY")
+api_key = os.getenv("OPENROUTER_API_KEY")
 
 external_client = AsyncOpenAI(
     api_key=api_key,
