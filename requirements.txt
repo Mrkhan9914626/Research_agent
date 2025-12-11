@@ -1,0 +1,4 @@
+chainlit>=2.9.3
+firecrawl-py>=4.10.4
+mcp>=1.23.3
+openai-agents[litellm]>=0.6.2
