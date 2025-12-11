@@ -1,6 +1,6 @@
 # Research Agent
 
-This project is a multi-agent research assistant built with Chainlit, Firecrawl, and OpenAI models. It automates the process of researching a topic by breaking it down into a series of steps, each handled by a specialized agent.
+This project is a multi-agent research assistant built with Chainlit, Firecrawl, and Gemini models. It automates the process of researching a topic by breaking it down into a series of steps, each handled by a specialized agent.
 
 ## Features
 
@@ -11,13 +11,13 @@ This project is a multi-agent research assistant built with Chainlit, Firecrawl,
     4.  **Reporter Agent:** Generates a comprehensive and well-structured final report.
 - **Interactive UI:** The application uses Chainlit to provide a user-friendly chat interface for interacting with the research agent.
 - **Real-time Updates:** The UI provides real-time updates on the progress of the research, showing the current step and status.
-- **Powered by OpenAI and Firecrawl:** The agents use OpenAI's powerful language models (via OpenRouter) for their reasoning and content generation capabilities, and Firecrawl for web scraping and searching.
+- **Powered by Gemini and Firecrawl:** The agents use Gemini's powerful language models (via OpenRouter) for their reasoning and content generation capabilities, and Firecrawl for web scraping and searching.
 
 ## Technologies Used
 
 - **Chainlit:** A Python framework for building conversational AI applications.
 - **Firecrawl:** A tool for scraping and searching web pages.
-- **OpenAI:** The language models used by the agents.
+- **Gemini:** The language models used by the agents.
 - **OpenRouter:** A service that provides access to various language models.
 - **Python:** The programming language used for the project.
 
