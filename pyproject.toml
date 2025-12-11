@@ -1,0 +1,12 @@
+[project]
+name = "new-folder2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.9.3",
+    "firecrawl-py>=4.10.4",
+    "mcp>=1.23.3",
+    "openai-agents[litellm]>=0.6.2",
+]
