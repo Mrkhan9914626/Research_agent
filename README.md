@@ -30,8 +30,9 @@ This project is a multi-agent research assistant built with Chainlit, Firecrawl,
     ```
 
 2.  **Install the dependencies:**
+    This project uses `uv` as a package manager. To install dependencies, run:
     ```bash
-    pip install -r requirements.txt
+    uv sync
     ```
 
 3.  **Set up the environment variables:**
